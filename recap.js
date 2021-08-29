@@ -16,4 +16,6 @@ function maxNumber(array = []) {
 const number = [20, 89, 13, 78];
 console.log(maxNumber(number));
 
-//arrow
+//arrow function
+const square = x => x ** 2;
+console.log(square(8));
